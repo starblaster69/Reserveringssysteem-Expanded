@@ -1,0 +1,478 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+
+}
+
+body {
+    background-color: #ffffff;
+}
+
+/* Text and Headers */
+h1 {
+    padding: 10px   0   0   40px;
+    margin-bottom: 0;
+    display: block;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 42px;
+    color: #030303;
+    background-color: #62a9de;
+}
+
+h2 {
+    padding: 0   0   10px   50px;
+    display: block;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 18px;
+    color: #030303;
+    background-color: #62a9de;
+}
+
+h3 {
+    padding: 30px   0   0   50px;
+    display: block;
+    font-family: "Inter semibold", Arial, sans-serif;
+    font-size: 22px;
+    color: #030303;
+}
+
+h4 {
+    padding: 30px   0   10px   50px;
+    display: block;
+    font-family: "Inter semibold", Arial, sans-serif;
+    font-size: 18px;
+    color: #030303;
+}
+
+p {
+    padding: 0   50px   10px   50px;
+    display: block;
+    font-family: "Inter regular", Arial, sans-serif;
+    font-size: 18px;
+    color: #030303;
+}
+
+.galleryHeader {
+    margin: 30px 10px 0 10px;
+    padding-bottom: 15px;
+    background-color: #81bae5;
+}
+
+.contacttitle {
+    background-color: #81bae5;
+    width: 550px;
+    padding: 10px   0   10px   10px;
+    margin: 10px 10px 10px 50px;
+}
+
+.contactText {
+    width: 550px;
+    padding: 10px   0   10px   0;
+    margin: 10px 10px 10px 50px;
+}
+
+.inboxHead {
+    font-size: 26px;
+    padding-bottom: 20px;
+}
+
+/* Images */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 200px;
+    width: available;
+    padding-top: 10px;
+    margin: 0 10px 0 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #a1cbeb;
+}
+
+img {
+    width: 550px;
+    margin: 30px 10px 10px 50px;
+    text-align: center;
+}
+
+.imgMain { /* Homepage gallery images */
+    width: 400px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border: 0;
+    display: inline;
+}
+
+/* Links & Navigation */
+a {
+    color: #1d4b8f;
+    text-decoration: none;
+    padding: 5px;
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #1d4b8f;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.sitenav {
+    color: #ffffff;
+    margin: 25px 20px 21px 20px;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.sitenav:hover {
+    color: #1d4b8f;
+    margin: 25px 20px 21px 20px;
+
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.loginLink {
+    display: inline;
+    /*position: absolute;*/
+    right: 10px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* Ordered/Unordered Lists */
+ul {
+    display: flex;
+    align-items: center;
+    width: available;
+    gap: 10px;
+    font-family: "Inter", Arial, sans-serif;
+    justify-content: space-evenly;
+    background-color: #81bae5;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    border: 20px solid  #81bae5;
+    border-bottom: 21px solid #81bae5;
+    border-top: 25px solid #81bae5;
+    background-color: #81bae5;
+}
+
+ul li:hover {
+    border: 20px solid  #e5f0f9;
+    border-bottom: 21px solid #e5f0f9;
+    border-top: 25px solid #e5f0f9;
+    background-color: #e5f0f9;
+}
+
+.contactInfoDiv {
+    display: block;
+    text-align: center;
+}
+
+.contactInfo {
+    background-color: #e5f0f9;
+    margin: 10px 0 30px 50px;
+    display: inline-block;
+    text-align: left;
+}
+
+.contactInfo li {
+    display: block;
+    background-color: #e5f0f9;
+    border: 4px solid  #e5f0f9;
+    font-size: 20px;
+}
+
+.contactInfo li:hover {
+    background-color: #e5f0f9;
+    border: 4px solid  #e5f0f9;
+    font-size: 20px;
+}
+
+.contactInfo li:nth-child(odd) {
+    background-color: #a1cbeb;
+    border: 4px solid  #a1cbeb;
+}
+
+.accntManDiv {
+    padding: 30px 10px 0 10px;
+    margin-bottom: 40px;
+    display: block;
+    text-align: center;
+}
+
+.accntManMenu {
+    background-color: #e5f0f9;
+    margin: 20px auto 0 auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.accntManMenu li {
+    display: block;
+    background-color: #e5f0f9;
+    border: 20px solid  #e5f0f9;
+    font-size: 20px;
+}
+
+.accntManMenu li:hover {
+    background-color: #e5f0f9;
+    border: 20px solid  #e5f0f9;
+    font-size: 20px;
+}
+
+input[type=text], input[type=tel], input[type=email], input[type=password], textarea {
+    display: block;
+    width: 40vw;
+    font-size: 16px;
+    height: 1.5em;
+    font-family: "Inter", Arial, sans-serif;
+    border: 1px solid #030303;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px #1a1a1a;
+    max-width: 50vw;
+}
+
+textarea {
+    height: 10vh;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    font-family: "Rubik Medium", Arial, sans-serif;
+    font-size: 24px;
+}
+
+aside {
+    float: right;
+}
+
+@media screen and (max-width: 1072px) {
+    aside img, .contacttitle, .contactText, .contactInfo, .contactInfo li, label {
+        max-width: 30vw;
+        font-size: 3vw;
+        margin-right: 5vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contacttitle, .contactText, .contactInfo, .contactInfo li {
+        display: none;
+    }
+    aside, aside img {
+        float: none;
+        max-width: 80vw;
+    }
+}
+
+table {
+    padding: 10px 20px 10px 20px;
+}
+
+th {
+    font-family: "Rubik Medium", Arial, sans-serif;
+    font-size: 20px;
+    background-color: #29465b;
+    padding: 10px;
+    color: #ffffff;
+}
+
+td {
+    padding: 5px 10px 5px 10px;
+    font-family: "Rubik Medium", Arial, sans-serif;
+    font-size: 18px;
+}
+
+tfoot td {
+    text-align: center;
+    font-weight: bold;
+}
+
+tbody tr {
+    background-color: #e5f0f9;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #a1cbeb;
+}
+
+.tableNumber {
+    font-weight: bolder;
+}
+
+
+
+.detailsLabel {
+    display: inline-block;
+    width: fit-content;
+}
+
+.errors {
+    color: red;
+}
+
+td.image img {
+    width: 50px;
+    height: 50px;
+}
+
+.loginButton { /*the button to the login page, located on the homepage */
+    padding: 30px 20px 20px 20px;
+}
+
+
+
+.formDiv {
+    padding: 30px 10px 0 10px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    margin: 0 auto 0 auto;
+    text-align: left;
+}
+
+button {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 20%;
+    background-color: #ffffff;
+    border: 2px solid #3b8905 ;
+    font-size: 20px;
+    color: #3b8905;
+}
+
+button:hover {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 20%;
+    background-color: #92d767;
+    border: 2px solid #2b6902;
+    font-size: 20px;
+    color: #2b6902;
+}
+
+.deleteButton {
+    background-color: #ffffff;
+    border: 2px solid #f23b3b;
+    color: #f23b3b;
+    width: 20vw;
+}
+
+.deleteButton:hover {
+    background-color: #f56d6d;
+    border: 2px solid #f23b3b;
+    color: #f23b3b;
+    width: 20vw;
+}
+
+@media screen and (max-width: 992px) {
+    .tableDetails {
+        display: none;
+    }
+    .tableAdress, .tableEmail, .tableDetails, .tableName, .tableTel, .tableDate, .detailsButton {
+        width: 13vw;
+        max-width: 20vw;
+        max-height: 15vh;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tableAdress, .tableEmail, .tableDetails {
+        display: none;
+    }
+    .tableName, .tableTel, .tableDate, .detailsButton {
+        width: 15vw;
+        max-width: 20vw;
+        max-height: 30vh;
+        font-size: 3vw;
+    }
+}
+
+
+
+.footerBuffer {
+    height: 15vh;
+}
+
+footer {
+    background-color: #29465b;
+    margin-top: 10px;
+    padding-bottom: 40px;
+    height: 15.8vh;
+    max-height: 35vh;
+}
+
+.footerText {
+    padding: 30px 30px 15px 30px;
+    color: #e5f0f9;
+}
+
+.screenreader-text {
+    position: absolute;
+    left: -999px;
+    width: 1px;
+    height: 1px;
+    top: auto;
+    padding: 0;
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 0;
+}
+.screenreader-text:focus {
+    color: black;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    position: static;
+    margin: auto;
+    font-size: 20px;
+}
+
+/*.companyName {
+    padding-left: 20px;
+    color: #88dbdb;
+    background-color: #1d4b8f;
+    position: -webkit-sticky; /* Safari
+    position: sticky;
+    top: 0;
+}
+
+
+
+nav {
+    background-color: #1a1a1a;
+    position: absolute;
+    right: 0;
+    left: 0;
+    max-width: 1280px;
+    text-align:  center;
+    align-content: center;
+}
+
+.about {
+    padding-top: 30px;
+}
+
+label {
+    padding: 10px;
+}
+
+input {
+    padding: 10px;
+}
+
+img {
+    max-width: 300px;
+}*/
